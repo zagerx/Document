@@ -10,7 +10,7 @@
 在项目根目录打开终端：
 ```
 # 生成默认配置 (LLVM 风格)
-clang-format -style=llvm -dump-config > .clang-format
+clang-format-14 -style=llvm -dump-config > .clang-format
 ```
 - 自定义规则
 编辑`.clang-format文`件
