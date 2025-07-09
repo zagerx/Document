@@ -1,14 +1,18 @@
 # zephyr开发流程
 ## 1.创建本地/远程仓库
 ```
-gh repo create Embedded --public --confirm
-
+//创建远程公共仓库
+gh repo create 仓库名 --public --confirm
+//创建远程私有仓库
+gh repo create 仓库名 --private --confirm
+//创建本地仓库
 mkdir Embedded && cd Embedded
+//初始化本地仓库
 git init
 echo "# Embedded Project" > README.md
 git add .
 git commit -m "Initial commit"
-
+//关联本地和远程仓库
 git remote add origin git@github.com:zagerx/Embedded.git
 git push -u origin master
 ```
@@ -51,6 +55,11 @@ manifest:
       remote: origin  # 改为存在的 remote
       revision: v1.0.0
 ```
+- 另一种目录结构
+```
+
+```
+
 ## 3.在本地初始化/更新
 - `mkdir EmbeddedCodes && cd EmbeddedCodes`
 - `west init -m "ssh://git@github.com/zagerx/Embedded.git" && west update`
