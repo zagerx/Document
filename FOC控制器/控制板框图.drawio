@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:141.0) Gecko/20100101 Firefox/141.0" version="28.0.7">
+  <diagram name="第 1 页" id="et2tbkSXs2I194b78g1R">
+    <mxGraphModel dx="804" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XEzy54dqlRFXKG2neWXR-1" value="电源" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="220" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XEzy54dqlRFXKG2neWXR-2" value="电源座" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="220" width="30" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XEzy54dqlRFXKG2neWXR-3" value="主控" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="380" width="100" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="XEzy54dqlRFXKG2neWXR-4" value="控制接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="360" width="30" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XEzy54dqlRFXKG2neWXR-5" value="反馈接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="460" width="30" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XEzy54dqlRFXKG2neWXR-6" value="通信接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="380" width="30" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XEzy54dqlRFXKG2neWXR-7" value="debug接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="490" width="30" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XEzy54dqlRFXKG2neWXR-8" value="&lt;div&gt;LED电路&lt;/div&gt;&lt;div&gt;按键电路&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="630" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XEzy54dqlRFXKG2neWXR-9" value="姿态传感器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="580" width="40" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
