@@ -1,13 +1,32 @@
 # FOC控制器
 ## 仓库：
 - 控制器硬件仓库
-  - 控制板仓库
-  - 驱动板仓库
-  - 编码器仓库
+  - 控制板仓库(HW_ConctrolBoard)
+  - 驱动板仓库(HW_DriverBoard)
+  - 编码器仓库(HW_EncodeBoard)
 - Kicad元件库/封装库/3D模型库
 - 机械模型仓库
   - 3D模型
   - 2D图形库
+## 目录
+- SBTContorlDevice
+  - SBT_Project_Resp_Manage
+    - Doc及其他
+    - .west
+  - HardWare
+    - HW_ContorlBoard
+      - KicadLibrary(子仓库)
+    - HW_DriverBoard
+      - KicadLibrary(子仓库)
+    - HW_EncoderBoard
+      - KicadLibrary(子仓库)
+  - Mechine
+  - SoftWare
+    - app
+    - boards
+    - moudul
+    - bootload
+    - zephyr
 
 ## 设计目标
 - 控制板+驱动板+编码器板
